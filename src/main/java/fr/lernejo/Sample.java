@@ -8,7 +8,7 @@ public class Sample {
         return op.func.apply(a, b);
     }
 
-    enum Operation {
+    public enum Operation {
         ADD((a, b) -> a + b),
         MULT((a, b) -> a * b),
         ;
